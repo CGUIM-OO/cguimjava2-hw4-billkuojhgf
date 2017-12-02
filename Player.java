@@ -22,6 +22,7 @@ public class Player {
 		// game
 		if(getCurrentChips() == 0){
 			bet = 0;
+		}
 		return bet;
 	}
 
