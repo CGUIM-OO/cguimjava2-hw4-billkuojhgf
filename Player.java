@@ -20,6 +20,8 @@ public class Player {
 		bet = 1;
 		// TODO Need a boolean to consider if chips are enough to play another
 		// game
+		if(getCurrentChips() == 0){
+			bet = 0;
 		return bet;
 	}
 
